@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="灯橙あかさんのお誕生日をお祝いする素敵なツイートを集めました。"
+    />
+    <title>【非公式】灯橙あか生誕祭2024</title>
+    <meta
+      property="og:url"
+      content="https://levure-s.github.io/ToodaiBD2022/"
+    />
+    <meta property="og:title" content="【非公式】灯橙あか生誕祭2024" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:description"
+      content="灯橙あかさんのお誕生日をお祝いする素敵なツイートを集めました。"
+    />
+    <meta
+      property="og:image"
+      content="https://levure-s.github.io/ToodaiBD2023/img/364311245_651192296947319_1191749207639296960_n.jpg"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@8J6pxh2o0XB5lN9" />
+    <meta property="og:locale" content="ja_JP" />
+    <link rel="stylesheet" href="./css/doctor.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="title">
+      <div class="img-contaier">
+        <div class="bus">
+          <div class="roof">
+            <div class="destination-display">
+              <div class="destination">行き</div>
+            </div>
+          </div>
+          <div class="body">
+            <div class="side-mirror"></div>
+            <div class="window">
+              <a
+                href="https://twitter.com/toodai_Aka81/status/1686207115780870144"
+                target="_blank"
+                rel="noopener"
+              >
+                <img
+                  src="./img/364311245_651192296947319_1191749207639296960_n.jpg"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="side-mirror right"></div>
+            <div class="front">
+              <div class="front-container">
+                <div class="lights"></div>
+                <div class="text-area"><p>AKA ToDAI</p></div>
+                <div class="lights"></div>
+              </div>
+              <div class="bumper">
+                <div class="number-plate"></div>
+              </div>
+            </div>
+          </div>
+          <div class="wheel-container">
+            <div class="wheel"></div>
+            <div class="wheel"></div>
+          </div>
+        </div>
+      </div>
+      <h1>灯橙あか生誕祭2024</h1>
+      <h2>
+        <span class="brake1"> 灯橙あかちゃん </span>
+        <span class="brake2">生まれてきてくれて</span>
+        ありがとう
+      </h2>
+    </div>
+
+    <div class="msg">
+      <ul id="msg-list"></ul>
+    </div>
+
+    <script src="./info.js"></script>
+    <script>
+      var text = "";
+      for (key in tweets) {
+        let text1 =
+          '<li><div class="bus_stop"><div class="head"><div class="cylindrical_plate"><div class="inner"><div class="name">';
+        let text2 = key;
+        let text3 =
+          '</div></div></div></div><div class="body"><div class="brace"></div><div class="sign"><div class="inner">';
+        let text4 =
+          '<a href="' + tweets[key].url + '" target="_blank" rel="noopener">';
+        let text5 = '<img src="./img/' + tweets[key].img + '">';
+        let text6 = "</a>";
+        let text7 =
+          '</div></div><div class="brace"></div></div><div class="foot"></div></div></li>';
+        text = text + text1 + text2 + text3 + text4 + text5 + text6 + text7;
+      }
+      $(window).load(function () {
+        $("#msg-list").html(text);
+      });
+    </script>
+  </body>
+</html>

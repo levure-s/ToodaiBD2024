@@ -1,0 +1,275 @@
+body {
+  min-width: 280px;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.title {
+  position: relative;
+  padding: 3em;
+  background-color: #fff;
+}
+.title a:nth-child(2) {
+  width: 6.4em;
+  left: calc(50% + 19em);
+}
+.title h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: transparent;
+  background: linear-gradient(
+    0deg,
+    #b67b03 0%,
+    #daaf08 45%,
+    #fee9a0 70%,
+    #daaf08 85%,
+    #b67b03 90% 100%
+  );
+  -webkit-background-clip: text;
+}
+.title h2 {
+  font-size: 2em;
+  font-family: system-ui;
+  color: #c45446;
+}
+.msg {
+  background-color: #f5e8e0;
+}
+#msg-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2em;
+}
+#msg-list::after {
+  content: "";
+  width: 32%;
+  max-width: 450px;
+}
+#msg-list li {
+  max-width: 450px;
+  width: 32%;
+  padding-bottom: 1.5em;
+}
+.cylindrical_plate {
+  width: 30%;
+  margin: auto;
+  border-radius: 50%;
+  background-color: #fff;
+  padding-top: 30%;
+  position: relative;
+}
+.cylindrical_plate .inner {
+  width: 90%;
+  border-radius: 50%;
+  background-color: #c45446;
+  padding-top: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cylindrical_plate .name {
+  width: 103%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  text-align: center;
+  line-height: 1.5em;
+}
+.bus_stop .brace {
+  width: 5%;
+  padding-top: 2%;
+  background-color: #5e4e42;
+  margin: auto;
+}
+.bus_stop .brace:nth-child(3) {
+  padding-top: 5%;
+}
+.sign {
+  padding: 1em;
+  background-color: #fff;
+}
+.bus_stop .foot {
+  width: 15%;
+  padding-top: 10%;
+  background-color: #696566;
+  margin: auto;
+}
+.bus {
+  display: inline-block;
+  width: 7em;
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 27em);
+  transform: translateY(-50%);
+}
+.bus .roof {
+  background-color: #b1473b;
+  width: 100%;
+  padding: 6.2% 6.1% 1.5%;
+  box-sizing: border-box;
+}
+.bus .destination-display {
+  position: relative;
+  background-color: #bec0be;
+  width: 100%;
+  padding-top: 15.5%;
+  box-sizing: border-box;
+}
+.bus .destination {
+  position: absolute;
+  width: 94.9%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fefcfd;
+  border: solid 1px #97979a;
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: right;
+  padding-right: 01em;
+  padding-top: 0.2em;
+  font-size: 56%;
+}
+.bus .body {
+  position: relative;
+  background-color: #7e4443;
+  height: 4.55em;
+}
+.bus .side-mirror {
+  background-color: #9e4d46;
+  width: 6.9%;
+  padding-top: 12.6%;
+  position: absolute;
+  top: 0;
+  left: -6.9%;
+}
+.bus .side-mirror.right {
+  left: 100%;
+}
+.bus .window {
+  overflow: hidden;
+  height: 50.7%;
+  width: 93.6%;
+  margin: auto;
+}
+.bus .window img {
+  width: 100%;
+  max-height: none;
+  margin-top: -20%;
+}
+.front {
+  background-color: #c04133;
+  height: 49.3%;
+}
+.front-container {
+  padding-top: 12.7%;
+  padding-bottom: 1%;
+  height: 27.3%;
+  display: flex;
+  justify-content: center;
+}
+.lights {
+  background-color: #f2ecb0;
+  width: 17.8%;
+}
+.text-area {
+  width: 52.7%;
+  font-size: 60%;
+  color: #9e362d;
+  white-space: nowrap;
+}
+.bumper {
+  background-color: #bd4232;
+  border: solid 2px #b96358;
+  box-sizing: border-box;
+  height: 30.5%;
+  width: 93.6%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.number-plate {
+  background-color: #fffdfb;
+  width: 51.9%;
+  height: 66.7%;
+  margin: auto;
+}
+.wheel-container {
+  margin: auto;
+  width: 98.4%;
+  height: 0.5em;
+  display: flex;
+  justify-content: space-between;
+}
+.wheel {
+  background-color: #797776;
+  width: 12.9%;
+}
+
+@media (max-width: 900px) {
+  .title {
+    text-align: center;
+  }
+  .bus {
+    position: relative;
+    left: unset;
+    top: unset;
+    transform: unset;
+    padding-bottom: 1em;
+  }
+  .img-contaier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #msg-list li {
+    width: 48%;
+  }
+}
+@media (max-width: 680px) {
+  .brake1 {
+    display: block;
+  }
+  .title {
+    padding: 2em;
+  }
+  #msg-list {
+    justify-content: center;
+  }
+  #msg-list li {
+    width: 100%;
+  }
+}
+@media (max-width: 470px) {
+  .title {
+    height: auto;
+    padding: 1em 0;
+  }
+  .bus {
+    width: 6em;
+  }
+  .title h1 {
+    font-size: 1.5em;
+  }
+  .title h2 {
+    font-size: 1em;
+  }
+  .cylindrical_plate .name {
+    font-size: 0.8em;
+  }
+}
