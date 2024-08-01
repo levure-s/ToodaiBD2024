@@ -91,6 +91,14 @@ const tweets = {
     img: "Tamai.jpg",
     url: "https://x.com/Tamai_wb/status/1818674054158831670",
   },
+  Kotone: {
+    img: "Kotone.jpg",
+    url: "https://x.com/natsume_gochi/status/1818849127880606056",
+  },
+  Shinono: {
+    img: "Shinono.jpg",
+    url: "https://x.com/kage36268435/status/1818945480480731307",
+  },
   Levure: {
     img: "Levure.jpg",
     url: "https://x.com/8J6pxh2o0XB5lN9/status/1818664005222957481",
