@@ -79,6 +79,14 @@ const tweets = {
     img: "Pangori.jpg",
     url: "https://x.com/Babys_1209/status/1818756047567569126",
   },
+  Macha: {
+    img: "Macha.jpg",
+    url: "https://x.com/mch2_akyell/status/1818663388509356313",
+  },
+  Yugen: {
+    img: "Yugen.jpg",
+    url: "https://x.com/Yugen_Babys/status/1818673828291313671",
+  },
   Levure: {
     img: "Levure.jpg",
     url: "https://x.com/8J6pxh2o0XB5lN9/status/1818664005222957481",
