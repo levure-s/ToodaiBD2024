@@ -107,6 +107,10 @@ const tweets = {
     img: "Maaaho.jpg",
     url: "https://x.com/maaa_ho32/status/1818976137948918203",
   },
+  Aki: {
+    img: "Aki.jpg",
+    url: "https://x.com/aki73226661/status/1818967667845574995",
+  },
   Levure: {
     img: "Levure.jpg",
     url: "https://x.com/8J6pxh2o0XB5lN9/status/1818664005222957481",
