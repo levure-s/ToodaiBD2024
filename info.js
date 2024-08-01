@@ -87,6 +87,10 @@ const tweets = {
     img: "Yugen.jpg",
     url: "https://x.com/Yugen_Babys/status/1818673828291313671",
   },
+  Tamai: {
+    img: "Tamai.jpg",
+    url: "https://x.com/Tamai_wb/status/1818674054158831670",
+  },
   Levure: {
     img: "Levure.jpg",
     url: "https://x.com/8J6pxh2o0XB5lN9/status/1818664005222957481",
