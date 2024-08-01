@@ -110,7 +110,7 @@ img {
 }
 .bus {
   display: inline-block;
-  width: 7em;
+  width: 8em;
   position: absolute;
   top: 50%;
   left: calc(50% - 27em);
@@ -148,7 +148,7 @@ img {
 .bus .body {
   position: relative;
   background-color: #7e4443;
-  height: 4.55em;
+  height: 6.55em;
 }
 .bus .side-mirror {
   background-color: #9e4d46;
@@ -163,18 +163,18 @@ img {
 }
 .bus .window {
   overflow: hidden;
-  height: 50.7%;
+  height: 60.7%;
   width: 93.6%;
   margin: auto;
 }
 .bus .window img {
   width: 100%;
   max-height: none;
-  margin-top: -20%;
+  margin-top: -11%;
 }
 .front {
   background-color: #c04133;
-  height: 49.3%;
+  height: 39.3%;
 }
 .front-container {
   padding-top: 12.7%;
@@ -259,9 +259,6 @@ img {
   .title {
     height: auto;
     padding: 1em 0;
-  }
-  .bus {
-    width: 6em;
   }
   .title h1 {
     font-size: 1.5em;
