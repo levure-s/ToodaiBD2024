@@ -67,6 +67,18 @@ const tweets = {
     img: "Koto.jpg",
     url: "https://x.com/Babys_08/status/1818769379552817318",
   },
+  Yuuto: {
+    img: "Yuuto.jpg",
+    url: "https://x.com/Yuu_kakki/status/1818668572220309807",
+  },
+  Noriwo: {
+    img: "Noriwo.jpg",
+    url: "https://x.com/blx3xld/status/1818665597078847678",
+  },
+  Pangori: {
+    img: "Pangori.jpg",
+    url: "https://x.com/Babys_1209/status/1818756047567569126",
+  },
   Levure: {
     img: "Levure.jpg",
     url: "https://x.com/8J6pxh2o0XB5lN9/status/1818664005222957481",
