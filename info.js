@@ -99,6 +99,10 @@ const tweets = {
     img: "Shinono.jpg",
     url: "https://x.com/kage36268435/status/1818945480480731307",
   },
+  LEO: {
+    img: "LEO.jpg",
+    url: "https://x.com/glasses_Leo/status/1818953176130961844",
+  },
   Levure: {
     img: "Levure.jpg",
     url: "https://x.com/8J6pxh2o0XB5lN9/status/1818664005222957481",
