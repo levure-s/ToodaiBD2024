@@ -63,6 +63,10 @@ const tweets = {
     img: "HARUMARU.jpg",
     url: "https://x.com/HARUMARU730/status/1818755580280160358",
   },
+  Koto: {
+    img: "Koto.jpg",
+    url: "https://x.com/Babys_08/status/1818769379552817318",
+  },
   Levure: {
     img: "Levure.jpg",
     url: "https://x.com/8J6pxh2o0XB5lN9/status/1818664005222957481",
